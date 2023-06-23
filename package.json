@@ -1,0 +1,24 @@
+{
+  "name": "fullstackwithcicd",
+  "version": "1.0.0",
+  "description": "this is a project to learn how to create a CI / CD pipeline using AWS",
+  "main": "./dist/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "nodemon ./dist/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.3.1",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.4.0",
+    "sequelize": "^6.32.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
