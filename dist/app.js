@@ -12,7 +12,6 @@ app.use(body_parser_1.default.json());
 app.use('/', (req, res) => {
     res.send('Hello World');
 });
-console.log(process.env.SERVER_PORT);
 app.listen(PORT, () => {
     console.log(`listening on port ${PORT}`);
 });
